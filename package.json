@@ -1,0 +1,19 @@
+{
+  "name": "temp",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test:compile": "yarn tsc && node ./dist/index.js",
+    "test:validate": "node ./test.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@metamask/profile-sync-controller": "^0.1.2",
+    "@reduxjs/toolkit": "^2.2.5",
+    "react-redux": "^9.1.2",
+    "typescript": "^5.4.5",
+    "validate-npm-package-name": "^5.0.1"
+  }
+}
